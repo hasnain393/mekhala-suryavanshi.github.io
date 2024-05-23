@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mekhala Digital Marketer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-bottom: 2px solid #e5e5e5;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo {
+            width: 150px;
+        }
+        .nav {
+            margin-left: auto;
+        }
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        .section {
+            padding: 50px 20px;
+        }
+        .hero {
+            text-align: center;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+        .hero-text {
+            font-size: 36px;
+            color: #000;
+            font-family: 'Brush Script MT', cursive;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .about-me {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .about-me img {
+            max-width: 100%;
+            height: auto;
+        }
+        .about-me-text {
+            margin: 20px auto;
+            max-width: 800px;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+            text-align: left;
+        }
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .nav {
+                margin: 10px 0;
+            }
+            .nav a {
+                display: block;
+                margin: 5px 0;
+            }
+            .hero-text {
+                font-size: 28px;
+            }
+            .hero-subtext {
+                font-size: 18px;
+            }
+            .about-me-text {
+                font-size: 16px;
+            }
+        }
+        @media (max-width: 480px) {
+            .hero-text {
+                font-size: 22px;
+            }
+            .hero-subtext {
+                font-size: 16px;
+            }
+            .logo {
+                width: 120px;
+            }
+            .about-me-text {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Mekhala Digital Marketer Logo" class="logo">
+        <div class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div id="home" class="section hero">
+        <div class="hero-text">
+            Creativity + Analytics + Strategy
+        </div>
+        <img src="girl.png" alt="Three girls with question marks on their heads">
+    </div>
+    <div class="content">
+        <h1>Welcome to Mekhala's Digital Marketing Portfolio</h1>
+        <p>Explore my projects and learn more about my journey in the world of digital marketing.</p>
+    </div>
+    <div id="about" class="section about-me">
+        <h1>About Me</h1>
+        <div class="about-me-text">
+            <p>Hola Amigos ☀️, I'm Mekhala – a New York based marketing enthusiast, who believes that when data meets creativity, numbers blush and ideas flirt, unfolding stellar data-driven strategies.</p>
+            <p>My journey began with antics as a child, sweet-talking with my elder sister to buy the cute dress I have always wanted through compelling storytelling and crafting magical ✨ selling points, leaving her admiring my marketing talents.</p>
+            <p>A born marketer, I believe that data, creativity & emotion are rocket fuel 🚀 to launch performance-oriented campaigns while treasuring my approach as a people person.</p>
+            <p>Jump ahead to today, ready on the runway to ⬆️ elevate brands to new heights and transform the realm of marketing.</p>
+        </div>
+    </div>
+</body>
+</html>
