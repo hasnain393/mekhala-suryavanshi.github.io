@@ -70,6 +70,16 @@
             color: #333;
             text-align: left;
         }
+        .additional-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #000;
+            color: #fff;
+        }
+        .additional-section img {
+            max-width: calc(100% - 400px);
+            height: auto;
+        }
         @media (max-width: 768px) {
             .header {
                 flex-direction: column;
@@ -90,6 +100,9 @@
             }
             .about-me-text {
                 font-size: 16px;
+            }
+            .additional-section img {
+                max-width: 100%;
             }
         }
         @media (max-width: 480px) {
@@ -130,12 +143,16 @@
     </div>
     <div id="about" class="section about-me">
         <h1>About Me</h1>
+        <img src="image.png" alt="About Me Image">
         <div class="about-me-text">
             <p>Hola Amigos ☀️, I'm Mekhala – a New York based marketing enthusiast, who believes that when data meets creativity, numbers blush and ideas flirt, unfolding stellar data-driven strategies.</p>
             <p>My journey began with antics as a child, sweet-talking with my elder sister to buy the cute dress I have always wanted through compelling storytelling and crafting magical ✨ selling points, leaving her admiring my marketing talents.</p>
             <p>A born marketer, I believe that data, creativity & emotion are rocket fuel 🚀 to launch performance-oriented campaigns while treasuring my approach as a people person.</p>
             <p>Jump ahead to today, ready on the runway to ⬆️ elevate brands to new heights and transform the realm of marketing.</p>
         </div>
+    </div>
+    <div class="additional-section">
+        <img src="bg-1.png" alt="Balancing Data & Creativity">
     </div>
 </body>
 </html>
